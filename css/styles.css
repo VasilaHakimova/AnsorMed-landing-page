@@ -126,7 +126,7 @@ body {
   border: 2px solid #de2e54;
   border-radius: 8px;
   font-size: 15px;
-  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
   letter-spacing: 2px;
   background-color: #de2e54;
   color: #fff;
@@ -145,16 +145,53 @@ body {
   opacity: 0.6;
 }
 
+.red-button-solid:hover {
+  border-color: transparent;
+  background-color: rgba(222, 46, 84, 0.8);
+  color: #fff;
+}
+
+.red-button-solid:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
 
 
+/* HERO  MAIN CONTENT */
 
+.hero {
+  background-color: #0eb4c1;
+  color: #fff;
+}
 
+.hero-content {
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
 
+.hero-heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+}
 
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 36px;
+  width: 440px;
+}
 
-
-
+.hero-img {
+  align-self: flex-end;
+}
 
 
 
